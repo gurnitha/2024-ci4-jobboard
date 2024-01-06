@@ -101,3 +101,17 @@ Building Job Application using Codeigniter 4.4.4.
         new file:   writable/session/ci_sessionu7tm8m2cdj1cljkg0gkmupm4r0uh82od
 
         DONE :)
+
+
+## 3. STATIC FILES
+
+#### 1. Create home page and load static files
+
+        modified:   .gitignore
+        modified:   README.md
+        modified:   app/Controllers/BaseController.php
+        modified:   app/Controllers/Home.php
+        new file:   app/Views/home.php
+        new file:   app/Views/layouts/app.php
+
+        :)
