@@ -40,3 +40,8 @@ Building Job Application using Codeigniter 4.4.4.
         modified:   index.php
 
         NOTE: It works as first installation
+
+#### 6. Displayed Hello World!
+
+        modified:   app/Controllers/Home.php
+        new file:   writable/logs/log-2024-01-06.log
