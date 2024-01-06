@@ -121,3 +121,11 @@ Building Job Application using Codeigniter 4.4.4.
         modified:   app/Views/layouts/app.php
 
         :)
+
+#### 3. Retrieved and displayed jobs in home page
+
+        modified:   app/Controllers/Home.php
+        new file:   app/Models/Job/Job.php
+        modified:   app/Views/home.php
+
+        :)

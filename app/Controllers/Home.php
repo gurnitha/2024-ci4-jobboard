@@ -1,13 +1,15 @@
 <?php
 
 namespace App\Controllers;
+use App\Models\Job\Job;
 
 class Home extends BaseController
 {
     public function index(): string
     {
-        // return view('welcome_message');
-        // return ('<h1>Hello World!</h1>');
-        return view('home');
+        # Instantiate the model
+        $jobs = new Job();
+        $allJobs = $jobs->findAll();
+        return view('home', compact('allJobs'));
     }
 }

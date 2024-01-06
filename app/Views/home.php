@@ -98,24 +98,29 @@
                     </div>
                 </div>
                 <ul class="job-listings mb-5">
+
+                    <?php foreach($allJobs as $job): ?>
                     <li class="job-listing d-block d-sm-flex pb-3 pb-sm-0 align-items-center">
                         <a href="job-single.html"></a>
                         <div class="job-listing-logo">
-                            <img src="<?= base_url('public/assets/images/job_logo_1.jpg'); ?>" alt="Free Website Template by Free-Template.co" class="img-fluid"> 
+                            <!-- img src="base_url(''.[''].'')" -->
+                            <img src="<?= base_url('public/assets/images/'.$job['company_image'].''); ?>" alt="Free Website Template by Free-Template.co" class="img-fluid"> 
                         </div>
                         <div class="job-listing-about d-sm-flex custom-width w-100 justify-content-between mx-4">
                             <div class="job-listing-position custom-width w-50 mb-3 mb-sm-0">
-                                <h2>Product Designer</h2>
-                                <strong>Adidas</strong>
+                                <h2><?= $job['title'];?></h2>
+                                <strong><?= $job['company_name'];?></strong>
                             </div>
                             <div class="job-listing-location mb-3 mb-sm-0 custom-width w-25">
-                                <span class="icon-room"></span> New York, New York
+                                <span class="icon-room"></span> <?= $job['location'];?>
                             </div>
                             <div class="job-listing-meta">
-                                <span class="badge badge-danger">Part Time</span>
+                                <span class="badge badge-danger"><?= $job['job_type'];?></span>
                             </div>
                         </div>
                     </li>
+                    <?php endforeach; ?>
+
                     <li class="job-listing d-block d-sm-flex pb-3 pb-sm-0 align-items-center">
                         <a href="job-single.html"></a>
                         <div class="job-listing-logo">
