@@ -1,3 +1,6 @@
+# ing
+_docs
+
 */config/development
 */logs/log-*.php
 !*/logs/index.html
