@@ -89,3 +89,15 @@ Building Job Application using Codeigniter 4.4.4.
         modified:   writable/logs/log-2024-01-06.log
         new file:   writable/session/ci_session8cqt8pirl0ulpvn78s4dddt4u78cjalh
         new file:   writable/session/ci_sessiond4oguh8k1pg08bam6f14av67bhuli7rd
+
+#### 3. Register, login and logout a new user
+
+        modified:   README.md
+        modified:   app/Config/Routes.php
+        deleted:    writable/debugbar/debugbar_1704553937.316141.json
+        ...
+        modified:   writable/logs/log-2024-01-06.log
+        modified:   writable/session/ci_sessiond4oguh8k1pg08bam6f14av67bhuli7rd
+        new file:   writable/session/ci_sessionu7tm8m2cdj1cljkg0gkmupm4r0uh82od
+
+        DONE :)
