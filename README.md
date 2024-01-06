@@ -48,3 +48,10 @@ Building Job Application using Codeigniter 4.4.4.
 
 
 ## 2. SETUP AUTH USING SHIELD
+
+#### 1. Create db and connect it with the project
+
+        - Create db
+        - Connect db with the project via .env file
+
+        Done :)
