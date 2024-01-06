@@ -55,3 +55,37 @@ Building Job Application using Codeigniter 4.4.4.
         - Connect db with the project via .env file
 
         Done :)
+
+#### 2. Install shield
+
+        > composer require codeigniter4/shield
+        > composer require codeigniter4/shield:dev-develop
+        > php spark shield:setup
+
+        # Setup .env file
+
+		database.default.hostname = localhost
+		database.default.database = 
+		database.default.username = 
+		database.default.password = 
+		database.default.DBDriver = MySQLi
+
+        modified:   .env
+        modified:   README.md
+        modified:   app/Config/App.php
+        new file:   app/Config/Auth.php
+        new file:   app/Config/AuthGroups.php
+        new file:   app/Config/AuthToken.php
+        modified:   app/Config/Autoload.php
+        modified:   app/Config/Email.php
+        modified:   app/Config/Routes.php
+        modified:   app/Config/Security.php
+        modified:   composer.json
+        new file:   composer.lock
+        new file:   writable/debugbar/debugbar_1704553937.316141.json
+        new file:   writable/debugbar/debugbar_1704554140.836258.json
+        new file:   writable/debugbar/debugbar_1704554147.859725.json
+        new file:   writable/debugbar/debugbar_1704554191.988279.json
+        modified:   writable/logs/log-2024-01-06.log
+        new file:   writable/session/ci_session8cqt8pirl0ulpvn78s4dddt4u78cjalh
+        new file:   writable/session/ci_sessiond4oguh8k1pg08bam6f14av67bhuli7rd

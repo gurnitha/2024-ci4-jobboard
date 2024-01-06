@@ -1,5 +1,6 @@
 # ing
 _docs
+.env
 
 */config/development
 */logs/log-*.php
