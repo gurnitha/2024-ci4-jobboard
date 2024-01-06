@@ -33,3 +33,10 @@ Building Job Application using Codeigniter 4.4.4.
         http://localhost/2024_ci4_jobboard
         Not Found
         The requested URL was not found on this server.
+
+#### 5. Modified app/Config/index.php and App.php files
+
+        modified:   app/Config/App.php
+        modified:   index.php
+
+        NOTE: It works as first installation
