@@ -1,5 +1,5 @@
 RewriteEngine On
-RewriteBase /ci
+RewriteBase /2024-ci4-jobboard
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ /ci/index.php/$1 [L]
+RewriteRule ^(.*)$ /2024-ci4-jobboard/index.php/$1 [L]
