@@ -115,3 +115,9 @@ Building Job Application using Codeigniter 4.4.4.
         new file:   app/Views/layouts/app.php
 
         :)
+
+#### 2. Use conditional to showing/hiding user in navbar and added logout link
+
+        modified:   app/Views/layouts/app.php
+
+        :)
